@@ -1,0 +1,13 @@
+@mixin center {
+    margin: 0 auto;
+    text-align:center;
+}
+
+@mixin button($bg-color, $font-color, $hover-color){
+    background-color:$bg-color;
+    border: 0px solid;
+    color: $font-color;
+    &:hover{
+        background-color:$hover-color;
+        border-radius: 25px;}
+}

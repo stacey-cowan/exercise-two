@@ -1,0 +1,33 @@
+/* line 1, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/Exercises/exercise-two/scss/components/main */
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+  background-color: #fffbfb; }
+
+/* line 7, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/Exercises/exercise-two/scss/components/main */
+h1 {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  color: #c43333; }
+
+/* line 14, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/Exercises/exercise-two/scss/components/main */
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2em 1em; }
+
+/* line 20, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/Exercises/exercise-two/scss/components/main */
+.buttons {
+  margin: 0 auto;
+  text-align: center; }
+
+/* line 24, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/Exercises/exercise-two/scss/components/main */
+.button {
+  background-color: #c43333;
+  border: 0px solid;
+  color: #fffbfb; }
+  /* line 10, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/Exercises/exercise-two/scss/mixins */
+  .button:hover {
+    background-color: #791b1b;
+    border-radius: 25px; }

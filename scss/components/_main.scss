@@ -1,0 +1,26 @@
+html {
+    font-family: $helvetica;
+    font-size: 20px;
+    background-color:$background;
+}
+
+h1 {
+    text-align:center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    color:$primary;
+}
+
+a {
+    text-decoration:none;
+    display: inline-block;
+    padding: 2em 1em;
+}
+
+.buttons {
+    @include center;
+}
+
+.button {
+    @include button($primary, $background, $hover);
+}
